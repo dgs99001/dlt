@@ -5,9 +5,9 @@ interface AppCardProps {
 }
 
 const badgeColors: Record<string, string> = {
-  '编辑推荐': 'bg-sky-500',
+  '强烈推荐': 'bg-sky-500',
   '新品上线': 'bg-emerald-500',
-  '热门': 'bg-rose-500',
+  '热门推荐': 'bg-rose-500',
 };
 
 export default function AppCard({ app }: AppCardProps) {
