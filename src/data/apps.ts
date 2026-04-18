@@ -63,7 +63,7 @@ export const apps: AppItem[] = [
     tagline: '身心健康记录',
     description: '睡眠、运动、冥想一体化追踪，科学指导你的健康生活。',
     category: 'health',
-    imageUrl: 'ttps://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb38.jpg',
+    imageUrl: 'https://pic1.imgdb.cn/item/69e2f37a087b33b46ad7bb38.jpg',
     linkUrl: 'https://bakmry.gziasti.com/app/register.php?site_id=1051&topId=457911',
     badge: '热门',
     rating: 4.8,
