@@ -13,7 +13,7 @@ export const categories: Category[] = [
 export const apps: AppItem[] = [
   {
     id: 'app1',
-    name: 'FlowBoard',
+    name: '非凡娱乐',
     tagline: '可视化任务管理',
     description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
     category: 'productivity',
@@ -25,7 +25,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app2',
-    name: 'PixelCraft',
+    name: '梦想国际',
     tagline: '专业图形设计工具',
     description: '矢量绘图、UI设计、原型制作一体化，释放你的创作潜能。',
     category: 'creative',
@@ -37,7 +37,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app3',
-    name: 'ChatterBox',
+    name: '君临国际',
     tagline: '极速加密通讯',
     description: '端对端加密，零广告，保护每一条私信的安全与隐私。',
     category: 'social',
@@ -48,7 +48,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app4',
-    name: 'WealthMap',
+    name: '汇赢国际',
     tagline: '个人资产全景视图',
     description: '智能追踪收支、投资组合与目标储蓄，让财务清晰可见。',
     category: 'finance',
@@ -59,7 +59,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app5',
-    name: 'ZenTrack',
+    name: 'top1体育',
     tagline: '身心健康记录',
     description: '睡眠、运动、冥想一体化追踪，科学指导你的健康生活。',
     category: 'health',
@@ -71,7 +71,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app6',
-    name: 'StreamVault',
+    name: '新时代',
     tagline: '离线影音管理器',
     description: '整合多平台片单，支持离线缓存，随时随地享受高清内容。',
     category: 'entertainment',
@@ -82,7 +82,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app7',
-    name: 'NoteNest',
+    name: '问鼎娱乐',
     tagline: '智能笔记与知识库',
     description: '双向链接、AI摘要、多端同步，构建你的第二大脑。',
     category: 'productivity',
@@ -94,7 +94,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app8',
-    name: 'ColorMood',
+    name: '壹号娱乐',
     tagline: 'AI配色与调色板',
     description: '从图片提取调色板，AI生成配色方案，一键导出设计规范。',
     category: 'creative',
@@ -105,7 +105,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app9',
-    name: 'PulseConnect',
+    name: '胜天国际',
     tagline: '兴趣社群平台',
     description: '基于兴趣标签匹配，加入同频圈子，发现真实的人与故事。',
     category: 'social',
@@ -116,7 +116,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app10',
-    name: 'CoinLens',
+    name: '超凡国际',
     tagline: '加密货币实时行情',
     description: '多交易所聚合行情、智能预警与持仓分析，把握市场脉搏。',
     category: 'finance',
@@ -128,7 +128,7 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app11',
-    name: 'MindGrow',
+    name: '东升国际',
     tagline: '正念与冥想引导',
     description: '精选冥想课程与呼吸练习，帮助你减压、专注、更好入睡。',
     category: 'health',
@@ -139,7 +139,31 @@ export const apps: AppItem[] = [
   },
   {
     id: 'app12',
-    name: 'BeatForge',
+    name: '征途国际',
+    tagline: '移动端音乐制作',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=600',
+    linkUrl: '#',
+    badge: '热门',
+    rating: 4.7,
+    downloads: '55万+',
+  },
+    {
+    id: 'app13',
+    name: '巅峰国际',
+    tagline: '移动端音乐制作',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=600',
+    linkUrl: '#',
+    badge: '热门',
+    rating: 4.7,
+    downloads: '55万+',
+  },
+    {
+    id: 'app14',
+    name: 'NG南宫',
     tagline: '移动端音乐制作',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
     category: 'entertainment',
