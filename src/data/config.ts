@@ -2,6 +2,7 @@ import { BannerItem } from '../types';
 
 export const siteConfig = {
   name: 'NG集团',
+  logoUrl: '',
 };
 
 export const banners: BannerItem[] = [

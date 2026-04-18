@@ -19,8 +19,16 @@ export default function Header() {
     >
       <div className="max-w-5xl mx-auto px-4 h-12 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 bg-gray-900 rounded-lg flex items-center justify-center">
-            <Grid3X3 size={14} className="text-white" />
+          <div className="w-7 h-7 rounded-lg overflow-hidden flex items-center justify-center bg-gray-900 flex-shrink-0">
+            {siteConfig.logoUrl ? (
+              <img
+                src={siteConfig.logoUrl}
+                alt={siteConfig.name}
+                className="w-full h-full object-cover"
+              />
+            ) : (
+              <Grid3X3 size={14} className="text-white" />
+            )}
           </div>
           <span className="text-gray-900 font-semibold text-base tracking-tight">{siteConfig.name}</span>
         </div>
