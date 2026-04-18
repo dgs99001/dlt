@@ -170,7 +170,7 @@ export const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',
     linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',
-    badge: '热门',
+    badge: '热门推荐',
     rating: 4.7,
     downloads: '55万+',
   },
