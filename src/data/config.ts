@@ -1,7 +1,7 @@
 import { BannerItem } from '../types';
 
 export const siteConfig = {
-  name: 'AppHub',
+  name: 'NG集团',
 };
 
 export const banners: BannerItem[] = [
