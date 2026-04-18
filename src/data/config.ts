@@ -28,8 +28,8 @@ export const banners: BannerItem[] = [
 ];
 
 export const footerBrand = {
-  name: 'NG集团',
-  description: '精心筛选每一款优质应用，为你发现更好的数字生活。',
+  name: 'NG集团-品质铸就品牌',
+  description: '精选平台推荐与服务，信息仅供参考。',
   copyright: '©NG集团| 2025 ',
   tagline: '以极简之美，聚合无限可能',
 };
