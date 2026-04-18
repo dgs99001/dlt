@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Grid3x3 as Grid3X3 } from 'lucide-react';
+import { siteConfig } from '../data/config';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +22,7 @@ export default function Header() {
           <div className="w-7 h-7 bg-gray-900 rounded-lg flex items-center justify-center">
             <Grid3X3 size={14} className="text-white" />
           </div>
-          <span className="text-gray-900 font-semibold text-base tracking-tight">AppHub</span>
+          <span className="text-gray-900 font-semibold text-base tracking-tight">{siteConfig.name}</span>
         </div>
       </div>
     </header>
