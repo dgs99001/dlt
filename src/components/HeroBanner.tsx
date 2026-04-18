@@ -28,7 +28,7 @@ export default function HeroBanner({ banners }: HeroBannerProps) {
   const banner = banners[current];
 
   return (
-    <section className="relative w-full h-44 md:h-56 overflow-hidden">
+    <section className="relative w-full overflow-hidden" style={{ aspectRatio: '16/6' }}>
       {banners.map((b, i) => (
         <a
           key={b.id}
@@ -41,7 +41,7 @@ export default function HeroBanner({ banners }: HeroBannerProps) {
           <img
             src={b.imageUrl}
             alt={b.title}
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/25 to-transparent" />
         </a>
