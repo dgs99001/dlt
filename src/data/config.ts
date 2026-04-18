@@ -37,6 +37,7 @@ export const footerBrand = {
   description: '精选平台推荐与服务，信息仅供参考。',
   copyright: '©NG集团| 2025 ',
   tagline: '以极简之美，聚合无限可能',
+  logoUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',
 };
 
 export const footerLinks = [

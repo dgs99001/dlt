@@ -1,6 +1,7 @@
 import { Grid3x3 as Grid3X3 } from 'lucide-react';
 import { footerBrand, footerLinks } from '../data/config';
 
+
 export default function Footer() {
   return (
     <footer className="bg-white border-t border-gray-100 pt-16 pb-10">
@@ -8,8 +9,16 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-8 mb-10">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
-                <Grid3X3 size={16} className="text-white" />
+              <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center bg-gray-900 flex-shrink-0">
+                {footerBrand.logoUrl ? (
+                  <img
+                    src={footerBrand.logoUrl}
+                    alt={footerBrand.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <Grid3X3 size={16} className="text-white" />
+                )}
               </div>
               <span className="text-gray-900 font-semibold text-lg tracking-tight">{footerBrand.name}</span>
             </div>
