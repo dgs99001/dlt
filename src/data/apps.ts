@@ -79,6 +79,7 @@ export const apps: AppItem[] = [
     category: 'entertainment',
     imageUrl: 'https://i.postimg.cc/t4SjcBzw/xin-shi-dai.jpg',
     linkUrl: 'https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=82351&selfPlanId=144338',
+    badge: '热门',
     rating: 4.5,
     downloads: '150万+',
   },
