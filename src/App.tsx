@@ -325,7 +325,7 @@ const apps: AppItem[] = [
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
     category: 'entertainment',
-    imageUrl: 'https://pic1.imgdb.cn/item/689dd5ec58cb8da5c8251893.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    imageUrl: 'https://pic1.imgdb.cn/item/68692e6658cb8da5c89176f9.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://149.30.163.235:32011/#/link?allwin=BT8jp798vc163kFA9xyh2g%3D%3D',                                          // 点击跳转链接
     badge: '热门推荐',
     rating: 4.7,
