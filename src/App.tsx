@@ -389,12 +389,12 @@ function AppCard({ app }: { app: AppItem }) {
           </span>
         )}
       </div>
-      {/* 应用名称：超出一行时截断省略 */}
-      <p className="text-xs font-medium text-gray-800 leading-tight line-clamp-1 w-full px-0.5">
+      {/* 应用名称：超出一行时截断省略，移动端字号更小 */}
+      <p className="text-[10px] md:text-xs font-medium text-gray-800 leading-tight line-clamp-1 w-full px-0.5">
         {app.name}
       </p>
       {/* 副标语：超出一行时截断省略 */}
-      <p className="text-[10px] text-gray-400 leading-tight line-clamp-1 w-full px-0.5">
+      <p className="text-[9px] md:text-[10px] text-gray-400 leading-tight line-clamp-1 w-full px-0.5">
         {app.tagline}
       </p>
     </a>
@@ -414,8 +414,8 @@ function AppGrid({ apps }: { apps: AppItem[] }) {
   }
 
   return (
-    // 响应式网格：手机3列，平板4列，桌面固定6列
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 md:gap-5">
+    // 所有设备固定6列布局
+    <div className="grid grid-cols-6 gap-2 md:gap-5">
       {apps.map((app, i) => (
         // 每张卡片依次延迟淡入，形成错落动画
         <div
