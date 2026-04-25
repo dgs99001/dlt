@@ -147,7 +147,7 @@ const apps: AppItem[] = [
     tagline: '',
     description: '双向链接、AI摘要、多端同步，构建你的第二大脑。',
     category: 'productivity',
-    imageUrl: 'https://pic1.imgdb.cn/item/6984d021312b01a291a7449f.webp',                                                        // 应用封面图片（替换此URL可更换图片）
+    imageUrl: 'https://i.postimg.cc/FR5hjNf0/wen-ding-guo-ji.webp',                                                        // 应用封面图片（替换此URL可更换图片）
     linkUrl: 'https://onkrcy.hefaship.com/app/register.php?site_id=1020&topId=21543657',                                         // 点击跳转链接
     rating: 4.9,
     downloads: '95万+',
