@@ -119,8 +119,19 @@ const apps: AppItem[] = [
     rating: 4.6,
     downloads: '60万+',
   },
-  {
+   {
     id: 'app5',
+    name: '365体育汇',
+    tagline: '',
+    description: '智能追踪收支、投资组合与目标储蓄，让财务清晰可见。',
+    category: 'finance',
+    imageUrl: 'https://pic1.imgdb.cn/item/69f360d40b8cf5f62932d2a3.png',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://www.365t28.com:30123/entry/register/?i_code=5342640',                               // 点击跳转链接
+    rating: 4.6,
+    downloads: '60万+',
+  },
+  {
+    id: 'app6',
     name: 'top1体育',
     tagline: '',
     description: '睡眠、运动、冥想一体化追踪，科学指导你的健康生活。',
@@ -131,7 +142,7 @@ const apps: AppItem[] = [
     downloads: '200万+',
   },
   {
-    id: 'app6',
+    id: 'app7',
     name: '新时代',
     tagline: '',
     description: '整合多平台片单，支持离线缓存，随时随地享受高清内容。',
@@ -142,7 +153,7 @@ const apps: AppItem[] = [
     downloads: '150万+',
   },
   {
-    id: 'app7',
+    id: 'app8',
     name: '问鼎娱乐',
     tagline: '',
     description: '双向链接、AI摘要、多端同步，构建你的第二大脑。',
@@ -153,7 +164,7 @@ const apps: AppItem[] = [
     downloads: '95万+',
   },
   {
-    id: 'app8',
+    id: 'app9',
     name: '壹号娱乐',
     tagline: '',
     description: '从图片提取调色板，AI生成配色方案，一键导出设计规范。',
@@ -164,7 +175,7 @@ const apps: AppItem[] = [
     downloads: '40万+',
   },
   {
-    id: 'app9',
+    id: 'app10',
     name: '胜天国际',
     tagline: '',
     description: '基于兴趣标签匹配，加入同频圈子，发现真实的人与故事。',
@@ -175,7 +186,7 @@ const apps: AppItem[] = [
     downloads: '180万+',
   },
   {
-    id: 'app10',
+    id: 'app11',
     name: '超凡国际',
     tagline: '',
     description: '多交易所聚合行情、智能预警与持仓分析，把握市场脉搏。',
@@ -186,7 +197,7 @@ const apps: AppItem[] = [
     downloads: '75万+',
   },
   {
-    id: 'app11',
+    id: 'app12',
     name: '东升国际',
     tagline: '',
     description: '精选冥想课程与呼吸练习，帮助你减压、专注、更好入睡。',
@@ -197,7 +208,7 @@ const apps: AppItem[] = [
     downloads: '110万+',
   },
   {
-    id: 'app12',
+    id: 'app13',
     name: '征途国际',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
@@ -208,7 +219,7 @@ const apps: AppItem[] = [
     downloads: '55万+',
   },
   {
-    id: 'app13',
+    id: 'app14',
     name: '巅峰国际',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
@@ -219,7 +230,7 @@ const apps: AppItem[] = [
     downloads: '55万+',
   },
   {
-    id: 'app14',
+    id: 'app15',
     name: 'NG南宫',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
@@ -230,7 +241,7 @@ const apps: AppItem[] = [
     downloads: '55万+',
   },
    {
-    id: 'app15',
+    id: 'app16',
     name: 'NG体育',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
