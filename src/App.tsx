@@ -282,8 +282,19 @@ const apps: AppItem[] = [
     linkUrl: 'https://wlkyiy.paradisemall.net/app/register.php?site_id=1021&topId=5519693',                                          // 点击跳转链接
     rating: 4.7,
     downloads: '55万+',
-  }, {
+  },
+    {
     id: 'app21',
+    name: '领航国际',
+    tagline: '',
+    description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
+    category: 'entertainment',
+    imageUrl: 'https://pic1.imgdb.cn/item/69f4835ec16184acf99e4245.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://rsesra.hfjcl.com/app/register.php?site_id=1064&pt=FA9067F8-D104-5451-A6AB-960962BAB808',                                          // 点击跳转链接
+    rating: 4.7,
+    downloads: '55万+',
+  },{
+    id: 'app22',
     name: '旺财28',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
@@ -293,7 +304,7 @@ const apps: AppItem[] = [
     rating: 4.7,
     downloads: '55万+',
   }, {
-    id: 'app22',
+    id: 'app23',
     name: '28圈',
     tagline: '',
     description: '专业采样、混音、母带处理，在手机上完成专辑级别的创作。',
