@@ -74,6 +74,18 @@ const banners: BannerItem[] = [
 // ════════════════════════════════════════════
 
 const apps: AppItem[] = [
+    {
+    id: 'app1',
+    name: '领航国际',                                                                                                             // 应用名称
+    tagline: '',                                                                                                                   // 副标语（可填写，留空则不显示）
+    description: '用看板与时间轴掌控每一个项目进度，让团队协作更流畅。',
+    category: 'productivity',
+    imageUrl: 'https://pic1.imgdb.cn/item/69f4835ec16184acf99e4245.jpg',                                                         // 应用封面图片（替换此URL可更换图片）
+    linkUrl: 'https://rsesra.hfjcl.com/app/register.php?site_id=1064&pt=FA9067F8-D104-5451-A6AB-960962BAB808',        // 点击跳转链接
+                                                                                                           // 徽章文字（可选值：热门推荐 / 新品上线 / 强烈推荐，删除此行则不显示徽章）
+    rating: 4.9,
+    downloads: '120万+',
+  },
   {
     id: 'app1',
     name: '非凡娱乐',                                                                                                             // 应用名称
