@@ -70,6 +70,13 @@ const banners: BannerItem[] = [
 // ════════════════════════════════════════════
 
 const apps: AppItem[] = [
+          {
+      id: 'app1',
+      name: '戴高乐',
+      tagline: '',
+      imageUrl: 'https://pic1.imgdb.cn/item/6a16f2efcf685663461371d7.jpg',
+      linkUrl: 'https://hbffbr.hcjwj.com/app/register.php?site_id=2091&topId=79040'
+    }, 
   {
     id: 'app1',
     name: '非凡娱乐',
