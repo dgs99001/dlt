@@ -35,10 +35,10 @@ export default function AppCard({ app }: AppCardProps) {
           )}
         </div>
         <div className="w-full px-1">
-          <p className="text-[11px] font-semibold text-gray-900 leading-tight line-clamp-1">
+          <p className="text-[11px] font-semibold text-gray-900 leading-tight break-words">
             {app.name}
           </p>
-          <p className="text-[9px] text-gray-500 leading-snug line-clamp-1 mt-0.5">
+          <p className="text-[9px] text-gray-500 leading-snug mt-0.5">
             {app.tagline}
           </p>
         </div>
